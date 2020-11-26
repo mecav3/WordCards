@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/contex_menu_update"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="GÜNCELLE"
+        app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:id="@+id/contex_menu_sil"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="SİL"
+        app:showAsAction="ifRoom|withText" />
+
+</menu>

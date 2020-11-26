@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_main"
+        android:contentDescription="ana ekran"
+        android:icon="@drawable/anas"
+        android:title="ANA"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_show"
+        android:icon="@android:drawable/ic_media_play"
+        android:title="GO"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_add"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="KELİME EKLE"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_file"
+        android:title="SÖZLÜKLER"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_addFile"
+        android:icon="@android:drawable/btn_plus"
+        android:title="SÖZLÜK EKLE+"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_list"
+        android:title="SOR LİSTE"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_sub_sList"
+        android:title="SORMA LİSTE"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_dosya_share"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="DOSYA EPOSTA"
+        app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:id="@+id/menu_kelime_share"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="KELİME PAYLAŞ"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_sub_import_test"
+        android:title="Test Dosyası Yükle"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_sub_generate_test"
+        android:title="Test Dosyası Oluştur"
+        app:showAsAction="ifRoom" />
+
+</menu>
